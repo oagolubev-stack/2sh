@@ -1,7 +1,11 @@
-version: 1
-frontend:
-  build:
-    command: npm install && npm run build
-  run:
-    command: npm start
-    port: 3000
+meta:
+  name: travel-agency
+  version: 1.0.0
+  type: frontend
+
+build:
+  command: npm install && npm run build
+
+run:
+  command: npm start
+  port: 3000
