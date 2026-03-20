@@ -1,7 +1,8 @@
 meta:
-  name: travel-agency
-  version: 1.0.0
-  type: frontend
+  environment: nodejs
+  toolchain:
+    name: npm
+    version: 20
 
 build:
   command: npm install && npm run build
